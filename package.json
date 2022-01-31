@@ -1,32 +1,37 @@
 {
-  "name": "twitter-clone",
-  "private": true,
+  "name": "twitter-web-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "icon": "svgr icons -d components/icons --icon --replace-attr-values \"#fff=currentColor\""
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "next": "12.0.9",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "classnames": "^2.2.6",
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.12",
-    "@storybook/addon-actions": "^6.4.16",
-    "@storybook/addon-essentials": "^6.4.16",
-    "@storybook/addon-links": "^6.4.16",
-    "@storybook/builder-webpack5": "^6.4.16",
-    "@storybook/manager-webpack5": "^6.4.16",
-    "@storybook/react": "^6.4.16",
-    "@svgr/cli": "^6.2.1",
-    "babel-loader": "^8.2.3",
-    "eslint": "8.8.0",
-    "eslint-config-next": "12.0.9",
-    "prettier": "^2.5.1"
+    "@babel/core": "^7.10.2",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "@svgr/cli": "^5.4.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "postcss-loader": "^3.0.0",
+    "postcss-nested": "^4.2.1",
+    "prettier": "^2.0.5",
+    "style-loader": "^1.2.1"
   }
 }
